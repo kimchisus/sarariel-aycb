@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
                     </SubHeader>
                 </HeaderItems>
                 <ImageContainer>
-                    <HeroImage src={'/heroimage.png'} />
+                    <HeroImage src={`${process.env.BASE_PATH}/heroimage.png`} />
                 </ImageContainer>
             </MaxWidthContainer>
         </Container>

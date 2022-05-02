@@ -41,7 +41,7 @@ const sponsors = [
 
 const SponsorItem = memo(({ src, alt }: Sponsor) => (
     <SponsorContainer>
-        <SponsorImage src={src} alt={alt} />
+        <SponsorImage src={`${process.env.BASE_PATH}/${src}`} alt={alt} />
     </SponsorContainer>
 ));
 

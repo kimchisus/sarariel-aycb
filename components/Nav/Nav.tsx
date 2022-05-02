@@ -51,7 +51,7 @@ export const Nav: React.FC = () => {
         <Container isTop={isTop}>
             <MaxWidthContainer>
                 <LogoContainer>
-                    <Logo src={"/logo.png"} />
+                    <Logo src={`${process.env.BASE_PATH}/logo.png`} />
                 </LogoContainer>
                 <NavItemsContainer isTop={isTop}>
                     <NavItems />
