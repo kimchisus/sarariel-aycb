@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   distDir: 'docs',
-  basePath: '/docs',
+  basePath: '/sarariel-aycb',
 }
 
 module.exports = nextConfig
