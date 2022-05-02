@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && touch out/.nojekyll",
-    "deploy": "npm run build && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
+    "build": "rm -rf out && rm -rf docs && next build && next export && touch out/.nojekyll && mv out docs",
     "start": "next start",
     "lint": "next lint"
   },
