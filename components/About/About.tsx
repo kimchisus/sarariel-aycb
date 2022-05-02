@@ -15,7 +15,7 @@ export const About: React.FC = () => {
                         {`Our services include: Mental Health Counselling/Case Management, Community Mentorship, Peer Support Services, Peer Respite, Employment Services and Supportive Housing.`}
                     </Text>
                 </TextContainer>
-                <Logo src={'/sara-riel-logo.jpg'} />
+                <Logo src={`${process.env.BASE_PATH}/sara-riel-logo.jpg`} />
             </MaxWidth>
         </Container>
     );  
