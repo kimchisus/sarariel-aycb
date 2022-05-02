@@ -27,7 +27,7 @@ export const HeaderItems = styled.div`
 `;
 
 export const Header = styled.h1`
-    font-size: 5em;
+    font-size: 4em;
     line-height: 100%;
     max-width: 700px;
     margin: auto;

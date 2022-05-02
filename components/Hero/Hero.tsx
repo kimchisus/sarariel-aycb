@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
         <Container>
             <MaxWidthContainer>
                 <HeaderItems>
-                    <Header>All You Can Board and Sara Riel Charity Event</Header>
+                    <Header>AYCB 24-hour Charity Livestream for Mental Health</Header>
                     <SubHeader>
                         Come watch our charity stream for Mental Health Month and donate to get a chance to win prizes!
                     </SubHeader>

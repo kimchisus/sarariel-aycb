@@ -7,7 +7,6 @@ export const Container = styled.div`
 
 export const List = styled.div`
     margin: auto;
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -8,6 +8,16 @@ export const Container = styled.div`
     }
 `;
 
+export const Container2 = styled.div`
+    padding: 50px 0;
+    background: ${({theme}) => theme.primary};
+    color: white;
+
+    @media only screen and (max-width: 800px)  {
+        margin-bottom: 50px;
+    }
+`;
+
 export const MaxWidth = styled.div`
     margin: auto;
     max-width: 1200px;
@@ -32,9 +42,20 @@ export const HostText = styled.h2`
     }
 `;
 
+export const EventText = styled.h2`
+    font-size: 80px;
+    margin: auto;
+    text-align: center;
+    @media only screen and (max-width: 800px)  {
+        font-size: 50px;
+    }
+`;
+
 export const Text = styled.p`
     font-weight: 100;
     line-height: 38px;
+
+    margin-bottom: 50px;
 `;
 
 export const TextContainer = styled.div`
@@ -49,8 +70,17 @@ export const TextContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-    height: 150px;
+    width: 50%;
 
+    @media only screen and (max-width: 1000px)  {
+        display: none;
+    }
+`;
+
+export const AYCBLogo = styled.img`
+    width: 50%;
+    padding: 30px;
+    
     @media only screen and (max-width: 1000px)  {
         display: none;
     }
