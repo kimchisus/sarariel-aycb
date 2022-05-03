@@ -27,13 +27,13 @@ export const Logo = styled.img`
 `;
 
 export const NavItemsContainer = styled.div<WithIsTop>`
-    overflow-x: scroll;
     font-weight: bold;
     text-transform: uppercase;
     color: ${({ isTop, theme }) => isTop ? 'black' : 'white'};
 
     @media only screen and (max-width: 800px)  {
         padding: 0 20px;
+        overflow-x: scroll;
     }
 `;
 
