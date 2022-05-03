@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <Head>
         <title>All You Can Board</title>
         <meta name="description" content="All You Can Board!" />
-        <link rel="icon" href="/favi.png" />
+        <link rel="icon" href={`${process.env.BASE_PATH}/logo.png`} />
       </Head>
       <Nav />
       <Hero />
