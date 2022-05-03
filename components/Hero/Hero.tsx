@@ -19,9 +19,9 @@ export const Hero: React.FC = () => {
                         Come watch our charity stream for Mental Health Month and donate to get a chance to win prizes!
                     </SubHeader>
                 </HeaderItems>
-                <ImageContainer>
+                {/* <ImageContainer>
                     <HeroImage src={`${process.env.BASE_PATH}/heroimage.png`} />
-                </ImageContainer>
+                </ImageContainer> */}
             </MaxWidthContainer>
         </Container>
     );

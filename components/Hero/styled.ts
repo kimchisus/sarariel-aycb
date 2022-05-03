@@ -1,10 +1,22 @@
 import styled from 'styled-components';
 
+// export const Container = styled.div`
+//     height: 800px;
+//     width: 100%;
+//     background: ${({theme}) => theme.primary};
+//     margin-bottom: 200px;
+
+//     @media only screen and (max-width: 800px)  {
+//         height: initial;
+//         margin-bottom: 30px;
+//     }
+// `;
+
 export const Container = styled.div`
-    height: 800px;
+    height: 500px;
     width: 100%;
     background: ${({theme}) => theme.primary};
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
     @media only screen and (max-width: 800px)  {
         height: initial;
