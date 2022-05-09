@@ -36,6 +36,14 @@ const sponsors = [
         src: '/sponsors/leder.png',
         alt: 'leder games'
     },
+    {
+        src: '/sponsors/tripwire.png',
+        alt: 'trip wire',
+    },
+    {
+        src: '/sponsors/planb.png',
+        alt: 'plan b'
+    }
     
 ];
 

@@ -59,7 +59,8 @@ export const PrizeImage = styled.img`
 `;
 
 export const PrizeInfo = styled.div`
-
+    margin-top: 15px;
+    border-top: 1px rgba(0,0,0,.3) solid;
 `;
 
 export const Name = styled.h4`
@@ -69,12 +70,12 @@ export const Name = styled.h4`
     text-transform: uppercase;
 `;
 
-export const GamesContainer = styled.ul`
-    margin-top: 1em;
-    text-align: initial;
+export const GamesContainer = styled.div`
+    text-align: center;
+    text-decoration: none;
 `;
 
-export const Game = styled.li`
+export const Game = styled.div`
     font-size: 20px;
     font-weight: 300;
 `;

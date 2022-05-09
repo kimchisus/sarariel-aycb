@@ -29,7 +29,7 @@ const prizes: Prize[] = [
         name: 'Leder Games Prize Package #2',
         src: '/prizes/leder.png',
         games: [
-            'Oath',
+            'Oath: Chronicles of Empire & Exile',
         ]
     },
     {
@@ -43,7 +43,7 @@ const prizes: Prize[] = [
         name: 'Pandasaurus Games Prize Package',
         src: '/prizes/pandasaurus.png',
         games: [
-            'Skater Summer', 'Skull Canyon', 'Sobek',
+            'Skater Summer', 'Skull Canyon', 'Sobek: 2 Player',
         ]
     },
     {
@@ -78,7 +78,8 @@ const prizes: Prize[] = [
         name: 'Capstone Games Prize Package',
         src: '/prizes/capstone.png',
         games: [
-            'TBD',
+            'Boonlake',
+            'Riftforce'
         ]
     },
     {
@@ -102,6 +103,14 @@ const prizes: Prize[] = [
             'TBD',
         ]
     },
+    {
+        name: "Plan B Games Prize Package",
+        src: '/prizes/planb.png',
+        games: [
+            'Yak',
+            'Goodies Bundle'
+        ]
+    }
 ];
 
 const Prize = ({ src, name, games }: Prize) => {
@@ -110,6 +119,7 @@ const Prize = ({ src, name, games }: Prize) => {
             <PrizeImageContainer>
                 <PrizeImage src={`${process.env.BASE_PATH}/${src}`} />
             </PrizeImageContainer>
+            
             <PrizeInfo>
                 <Name>{name}</Name>
                 <GamesContainer>
