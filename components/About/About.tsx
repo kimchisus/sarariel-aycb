@@ -40,6 +40,9 @@ export const About: React.FC = () => {
 
     Viewers can tune in at any time to watch Carlo, Dylann and their friends play board games and/or to make a donation. 100% of all donations will go directly to Sara Riel. The more money folks donate, the more entries they will receive into random draws for various board game-related prize packs, many of which have been sponsored by board game publishers. Every 5 dollars that you choose to donate will earn you one entry into every prize package, so you’ll have plenty of chances to win one of these great prizes! (Limit of one prize package per person)
                         </Text>
+                        <Text>
+                        As part of their 12 months of giving, Carlo and Dylann are also fortunate to have the event sponsored by local production company Tripwire Media Group, who will be providing all the gear and production equipment to make the event possible.
+                        </Text>
                     </TextContainer>
                 </MaxWidth>
             </Container2>

@@ -1,28 +1,17 @@
 import styled from 'styled-components';
 
-// export const Container = styled.div`
-//     height: 800px;
-//     width: 100%;
-//     background: ${({theme}) => theme.primary};
-//     margin-bottom: 200px;
-
-//     @media only screen and (max-width: 800px)  {
-//         height: initial;
-//         margin-bottom: 30px;
-//     }
-// `;
-
 export const Container = styled.div`
-    height: 500px;
+    height: 650px;
     width: 100%;
     background: ${({theme}) => theme.primary};
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
     @media only screen and (max-width: 800px)  {
         height: initial;
         margin-bottom: 30px;
     }
 `;
+
 
 export const MaxWidthContainer = styled.div`
     height: 100%;
@@ -41,7 +30,7 @@ export const HeaderItems = styled.div`
 export const Header = styled.h1`
     font-size: 4em;
     line-height: 100%;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 
     @media only screen and (max-width: 800px)  {
