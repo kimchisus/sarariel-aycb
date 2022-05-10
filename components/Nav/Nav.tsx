@@ -55,7 +55,7 @@ export const Nav: React.FC = () => {
                 </LogoContainer>
                 <NavItemsContainer isTop={isTop}>
                     <NavItems />
-                    <Donate href="">Donate</Donate>
+                    {/* <Donate href="">Donate</Donate> */}
                 </NavItemsContainer>
             </MaxWidthContainer>
         </Container>

@@ -43,8 +43,11 @@ const sponsors = [
     {
         src: '/sponsors/planb.png',
         alt: 'plan b'
+    },
+    {
+        src: '/sponsors/bgb.png',
+        alt: 'board game bliss',
     }
-    
 ];
 
 const SponsorItem = memo(({ src, alt }: Sponsor) => (
