@@ -232,7 +232,7 @@ const Prize = ({ src, name, games }: Prize) => {
         <PrizeContainer>
             <PrizeInfoContainer>
                 <PrizeImageContainer>
-                    <PrizeImage src={`${process.env.BASE_PATH}/${src}`} />
+                    <PrizeImage src={`${process.env.BASE_PATH}${src}`} />
                 </PrizeImageContainer>
             </PrizeInfoContainer>
             <PrizeInfo>
