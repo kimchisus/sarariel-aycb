@@ -140,14 +140,14 @@ const prizes: Prize[] = [
     },
     {
         name: 'IV Studio Prize Package #2',
-        src: '/sponsors/IVstudio.png',
+        src: '/sponsors/IVStudio.png',
         games: [
             'Moonrakers Kickstarter Edition',
         ]
     },
     {
         name: 'IV Studio Prize Package #3',
-        src: '/sponsors/IVstudio.png',
+        src: '/sponsors/IVStudio.png',
         games: [
             'Veiled Fate (Plastic Mini Version)'
         ]
