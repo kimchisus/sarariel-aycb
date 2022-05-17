@@ -47,6 +47,50 @@ const sponsors = [
     {
         src: '/sponsors/bgb.png',
         alt: 'board game bliss',
+    },
+    {
+        src: '/sponsors/brotherwise.png',
+        alt: 'brotherwise',
+    },
+    {
+        src: '/sponsors/cheapsheep.png',
+        alt: 'cheapsheep',
+    },
+    {
+        src: '/sponsors/chiptheory.png',
+        alt: 'chiptheory',
+    },
+    {
+        src: '/sponsors/gamebrewer.png',
+        alt: 'gamebrewer',
+    },
+    {
+        src: '/sponsors/IVStudio.png',
+        alt: 'IV Studio',
+    },
+    {
+        src: '/sponsors/kayenta.png',
+        alt: 'kayenta',
+    },
+    {
+        src: '/sponsors/mindclash.png',
+        alt: 'mindclash',
+    },
+    {
+        src: '/sponsors/motorcitygameworks.png',
+        alt: 'motorcity gameworks'
+    },
+    {
+        src: '/sponsors/pegasusspiele.png',
+        alt: 'pegasus spiele'
+    },
+    {
+        src: '/sponsors/pencilfirstgames.png',
+        alt: 'pencil first'
+    },
+    {
+        src: '/sponsors/stonemaier.png',
+        alt: 'stone maier',
     }
 ];
 

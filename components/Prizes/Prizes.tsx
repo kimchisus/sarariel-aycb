@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, SubHeader, MaxWidth, PrizesContainer, PrizeContainer, PrizeImageContainer, PrizeImage, PrizeInfo, Name, Game, GamesContainer } from './styled';
+import { Container, Header, SubHeader, MaxWidth, PrizesContainer, PrizeContainer, PrizeImageContainer, PrizeImage, PrizeInfo, Name, Game, GamesContainer, PrizeInfoContainer, NameContainer } from './styled';
 
 interface Prize {
     name: string;
@@ -47,24 +47,11 @@ const prizes: Prize[] = [
         ]
     },
     {
-        name: 'Victory Pints Prize Package',
-        src: '/prizes/victorypints.png',
+        name: "Plan B Games Prize Package",
+        src: '/prizes/planb.png',
         games: [
-            'TBD',
-        ]
-    },
-    {
-        name: 'Board Game Bliss Prize Package',
-        src: '/prizes/boardgamebliss.png',
-        games: [
-            'TBD',
-        ]
-    },
-    {
-        name: 'AEG Prizes',
-        src: '/prizes/aeg.png',
-        games: [
-            '10 Copies of Dog Lover',
+            'Yak',
+            'Goodies Bundle'
         ]
     },
     {
@@ -82,6 +69,141 @@ const prizes: Prize[] = [
             'Riftforce'
         ]
     },
+    {
+        name: 'Game Brewer Prize Package',
+        src: '/sponsors/gamebrewer.png',
+        games: [
+            'Fuji Koro'
+        ]
+    },
+    {
+        name: 'Kayenta Games Prize Package',
+        src: '/sponsors/kayenta.png',
+        games: [
+            'Obsession Deluxe - Hand Assembled Version with all expansions!'
+        ]
+    },
+    {
+        name: 'Chip Theory Games Prize Package',
+        src: '/sponsors/chiptheory.png',
+        games: [
+            'burncycle',
+        ]
+    },
+    {
+        name: 'Mindclash Games Prize Package #1',
+        src: '/sponsors/mindclash.png',
+        games: [
+            'Anachrony Essential Edition',
+            'Exosuit Miniatures Pack'
+        ]
+    },
+    {
+        name: 'Mindclash Games Prize Package #2',
+        src: '/sponsors/mindclash.png',
+        games: [
+            'Cerebria',
+            'Forces of Balance expansion'
+        ]
+    },
+    {
+        name: 'Brotherwise Games Prize Package #1',
+        src: '/sponsors/brotherwise.png',
+        games: [
+            'Overboss'
+        ]
+    },
+    {
+        name: 'Brotherwise Games Prize Package #2',
+        src: '/sponsors/brotherwise.png',
+        games: [
+            'Night of the Ninja'
+        ]
+    },
+    {
+        name: 'Pencil First Games Prize Package',
+        src: '/sponsors/pencilfirstgames.png',
+        games: [
+            'Skulk Hollow and Ancient Relics Mini-Expansion', 
+            'The Whatnot Cabinet and Fascination Pack Mini-Expansion', 
+            'Floriferous and Early Spring Mini-Expansion', 
+            "Sunset Over Water and Nature's Muse Mini-Expansion", 
+            "Herbaceous: Pocket Edition and Flavor Pack Mini-Expansion"
+        ]
+    },
+    {
+        name: 'IV Studio Prize Package #1',
+        src: '/sponsors/IVstudio.png',
+        games: [
+            'Moonrakers Kickstarter Edition'
+        ]
+    },
+    {
+        name: 'IV Studio Prize Package #2',
+        src: '/sponsors/IVstudio.png',
+        games: [
+            'Moonrakers Kickstarter Edition',
+        ]
+    },
+    {
+        name: 'IV Studio Prize Package #3',
+        src: '/sponsors/IVstudio.png',
+        games: [
+            'Veiled Fate (Plastic Mini Version)'
+        ]
+    },
+    {
+        name: 'Pegasus Spiele Prize Package',
+        src: '/sponsors/pegasusspiele.png',
+        games: [
+            'Fire & Stone', 'First Rat', 
+            'MicroMacro: Crime City', 
+            'Talisman Adventures RPG Core Rulebook'
+        ]
+    },
+    {
+        name: 'Motor City Gameworks Prize Package',
+        src: '/sponsors/motorcitygameworks.png',
+        games: [
+            'Motor City Kickstarter Pledge'
+        ]
+    },
+    {
+        name: 'Cheap Sheep Games Prizes',
+        src: '/sponsors/cheapsheep.png',
+        games: [
+            '2 separate prizes of Crimopolis Deluxe Edition'
+        ]
+    },
+    {
+        name: 'Stonemaier Games Prize Package',
+        src: '/sponsors/stonemaier.png',
+        games: [
+            'Rolling Realms'
+        ]
+    },
+    {
+        name: 'AEG Prizes',
+        src: '/prizes/aeg.png',
+        games: [
+            '10 Copies of Dog Lover',
+        ]
+    },
+    {
+        name: 'Victory Pints Prize Package',
+        src: '/prizes/victorypints.png',
+        games: [
+            'TBD',
+        ]
+    },
+    {
+        name: 'Board Game Bliss Prize Package',
+        src: '/prizes/boardgamebliss.png',
+        games: [
+            'TBD',
+        ]
+    },
+    
     {
         name: "Dylann's Choices Prize Package",
         src: '/prizes/dylann.png',
@@ -102,28 +224,21 @@ const prizes: Prize[] = [
         games: [
             'TBD',
         ]
-    },
-    {
-        name: "Plan B Games Prize Package",
-        src: '/prizes/planb.png',
-        games: [
-            'Yak',
-            'Goodies Bundle'
-        ]
     }
 ];
 
 const Prize = ({ src, name, games }: Prize) => {
     return (
         <PrizeContainer>
-            <PrizeImageContainer>
-                <PrizeImage src={`${process.env.BASE_PATH}/${src}`} />
-            </PrizeImageContainer>
-            
+            <PrizeInfoContainer>
+                <PrizeImageContainer>
+                    <PrizeImage src={`${process.env.BASE_PATH}/${src}`} />
+                </PrizeImageContainer>
+            </PrizeInfoContainer>
             <PrizeInfo>
                 <Name>{name}</Name>
                 <GamesContainer>
-                    {games.map((game) => <Game key={game}>{game}</Game>)}
+                    <Game>{games.map((game, index) => `${index > 0 ? ', ' : ''}${game}`)}</Game>
                 </GamesContainer>
             </PrizeInfo>
         </PrizeContainer>

@@ -26,31 +26,52 @@ export const SubHeader = styled.h3`
 
 export const PrizesContainer = styled.div`
     padding: 50px;
-    overflow-x: scroll;
 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 `;
 
 export const PrizeContainer = styled.div`
-    border: 1px rgba(0,0,0,.3) solid;
+    margin-top: 20px;
+    border: 1px rgba(0,0,0,.2) solid;
     border-radius: 5px;
     margin-right: 20px;
     background: white;
     min-width: 350px;
+    width: 350px;
 
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.3);
+    margin-bottom: 50px;
     text-align: center;
-    padding: 20px;
+`;
+
+export const PrizeInfoContainer = styled.div`
+    position: relative;
+    height: 60px;
+    margin-bottom: 35px;
+    border-bottom: 1px rgba(0,0,0,.3) solid;
 `;
 
 export const PrizeImageContainer = styled.div`
+    position: absolute;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
+    background: white;
+    top: -50px;
+    left: 0;
+    right: 0;
     margin: auto;
 
-    height: 300px;
-    width: 300px;
-
+    flex-shrink: 0;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: 1px rgba(0,0,0,.3) solid;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
 `;
 
 export const PrizeImage = styled.img`
@@ -59,23 +80,26 @@ export const PrizeImage = styled.img`
 `;
 
 export const PrizeInfo = styled.div`
-    margin-top: 15px;
-    border-top: 1px rgba(0,0,0,.3) solid;
+    margin-top: 40px;
+    padding: 20px;
 `;
 
 export const Name = styled.h4`
-    font-size: 25px;
-    margin-top: 20px;
-    min-height: 80px;
+    font-size: 20px;
     text-transform: uppercase;
+    margin-bottom: 10px;
+`;
+
+export const NameContainer = styled.div`
 `;
 
 export const GamesContainer = styled.div`
-    text-align: center;
     text-decoration: none;
 `;
 
-export const Game = styled.div`
-    font-size: 20px;
+export const Game = styled.span`
+    font-size: 15px;
+    padding: 5px 0;
     font-weight: 300;
+    color: rgba(0,0,0,.5);
 `;

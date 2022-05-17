@@ -2,12 +2,18 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Hero } from 'components/Hero';
 import { Nav } from 'components/Nav';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Sponsors } from 'components/Sponsors';
 import { About } from 'components/About';
 import { Prizes } from 'components/Prizes';
 
 const Home: NextPage = () => {
+  // useEffect(() => {
+  //   if(process.env.NODE_ENV !== 'development' && window.location.protocol !== 'https') {
+  //     window.location.replace(`https://${process.env.URL}${process.env.BASE_URL}`);
+  //   }
+  // }, [window?.location?.protocol]);
+
   return (
     <React.Fragment>
       <Head>

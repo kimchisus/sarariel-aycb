@@ -52,8 +52,9 @@ export const EventText = styled.h2`
 `;
 
 export const Text = styled.p`
-    font-weight: 100;
+    font-weight: 300;
     line-height: 38px;
+    color: ${({color}) => color ?? 'rgba(0,0,0,.5)'};
 
     margin-bottom: 50px;
 `;
@@ -71,6 +72,7 @@ export const TextContainer = styled.div`
 
 export const Logo = styled.img`
     width: 50%;
+    padding: 30px;
 
     @media only screen and (max-width: 1000px)  {
         display: none;
@@ -79,7 +81,7 @@ export const Logo = styled.img`
 
 export const AYCBLogo = styled.img`
     width: 50%;
-    padding: 30px;
+    padding: 60px;
     
     @media only screen and (max-width: 1000px)  {
         display: none;

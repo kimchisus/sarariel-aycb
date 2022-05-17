@@ -1,12 +1,12 @@
-
-const BASE_PATH = '/sarariel-aycb';
+console.log(process.env);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: BASE_PATH,
+  basePath: process.env.BASE_PATH,
   env: {
-    BASE_PATH
+    BASE_PATH: process.env.BASE_PATH,
+    URL: process.env.URL,
   }
 }
 
