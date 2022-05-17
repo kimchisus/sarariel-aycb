@@ -133,7 +133,7 @@ const prizes: Prize[] = [
     },
     {
         name: 'IV Studio Prize Package #1',
-        src: '/sponsors/IVstudio.png',
+        src: '/sponsors/IVStudio.png',
         games: [
             'Moonrakers Kickstarter Edition'
         ]
