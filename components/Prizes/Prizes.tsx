@@ -58,7 +58,7 @@ const prizes: Prize[] = [
         name: 'North Star Games Prize Package',
         src: '/prizes/northstar.png',
         games: [
-            'Oceans', 'Evolution Climate',
+            'Oceans'
         ]
     },
     {
