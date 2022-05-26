@@ -55,7 +55,7 @@ export const Nav: React.FC = () => {
                 </LogoContainer>
                 <NavItemsContainer isTop={isTop}>
                     <NavItems />
-                    <Donate href="donate.allyoucanboard.com" target="_blank">Donate</Donate>
+                    <Donate href="http://weblink.donorperfect.com/AllYouCanBoard" target="_blank">Donate</Donate>
                 </NavItemsContainer>
             </MaxWidthContainer>
         </Container>
