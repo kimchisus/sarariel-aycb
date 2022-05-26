@@ -193,14 +193,19 @@ const prizes: Prize[] = [
         name: 'Victory Pints Prize Package',
         src: '/prizes/victorypints.png',
         games: [
-            'TBD',
+            'Radlands (Standard)', 
+            'Point Salad', 
+            'Bohnanza (25th Anniversary Edition)', 
+            'Coloretto, Sushi Go, Wavelength',
         ]
     },
     {
         name: 'Board Game Bliss Prize Package',
         src: '/prizes/boardgamebliss.png',
         games: [
-            'TBD',
+            'Calico', 
+            'Dog Lover',
+            'Sobek: 2 Player'
         ]
     },
     
@@ -208,21 +213,51 @@ const prizes: Prize[] = [
         name: "Dylann's Choices Prize Package",
         src: '/prizes/dylann.png',
         games: [
-            'TBD',
+            'The Castles of Burgundy (Anniversary Edition)', 
+            `Azul: Queen's Garden`, 
+            'Witchstone', 
+            'Biblios', 
+            'AYCB Dice Bag',
         ]
     },
     {
         name: "Carlo's Choices Prize Package",
         src: '/prizes/carlo.png',
         games: [
-            'TBD',
+            'Keyflower', 
+            'Res Arcana, Galaxy Trucker', 
+            'Battle Line', 
+            'High Society', 'AYCB Dice Bag',
         ]
     },
     {
         name: "Patreon Choice Prize Package",
         src: '/prizes/patreon.png',
         games: [
-            'TBD',
+            'Viticulture: Essential Edition (+ Tuscany Expansion)', 
+            'The Quest for El Dorado', 
+            'Cascadia', 
+            'Land vs Sea', 
+            '7 Wonders: Duel', 
+            'The Crew: The Quest for Planet Nine',
+        ]
+    },
+    {
+        name: "Mista Rau Gaming Prize Package",
+        src: '/sponsors/mistarau.png',
+        games: [
+            'Gen7: A Crossroads Game', 
+            'Top Gun Strategy Game (2020)', 
+            "The Goonies: Escape With One-Eyed Willy's Rich Stuff", 
+            'Revolution of 1828, Dinosaur Island: Rawr N Write',
+        ]
+    },
+    {
+        name: 'Red Raven Games Prize Package',
+        src: '/sponsors/redraven.png',
+        games: [
+            'Deep Vents', 
+            'Roam'
         ]
     }
 ];

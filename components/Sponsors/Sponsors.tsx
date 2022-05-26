@@ -91,6 +91,14 @@ const sponsors = [
     {
         src: '/sponsors/stonemaier.png',
         alt: 'stone maier',
+    },
+    {
+        src: '/sponsors/mistarau.png',
+        alt: 'mistarau'
+    },
+    {
+        src: '/sponsors/redraven.png',
+        alt: 'Red Raven',
     }
 ];
 
