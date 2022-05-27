@@ -43,7 +43,7 @@ const satItems: Item[] = [
     },
     { 
         time: '7:30pm', 
-        game: "One Night Ultimate Wereworld" 
+        game: "One Night Ultimate Werewolf" 
     },
     { 
         time: '8:30pm', 
