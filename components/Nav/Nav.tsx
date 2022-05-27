@@ -21,6 +21,10 @@ const items: Item[] = [
         title: 'Sponsors',
         to: '#sponsors',
     },
+    {
+        title: 'Schedule',
+        to: '#schedule',
+    },
    {
        title: 'Prizes',
        to: '#prizes',

@@ -13,6 +13,7 @@
     "dotenv": "^16.0.1",
     "next": "12.1.5",
     "react": "18.0.0",
+    "react-chrono": "^1.15.3",
     "react-dom": "18.0.0",
     "styled-components": "^5.3.5"
   },

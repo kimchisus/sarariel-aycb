@@ -6,6 +6,7 @@ import React, { useEffect } from 'react';
 import { Sponsors } from 'components/Sponsors';
 import { About } from 'components/About';
 import { Prizes } from 'components/Prizes';
+import { Schedule } from 'components/Schedule';
 
 const Home: NextPage = () => {
   // useEffect(() => {
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
       <Hero />
       <About />
       <Sponsors />
+      <Schedule />
       <Prizes />
     </React.Fragment>
   )
