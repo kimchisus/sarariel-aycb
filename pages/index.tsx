@@ -15,11 +15,14 @@ const Home: NextPage = () => {
   //   }
   // }, [window?.location?.protocol]);
 
+
+  
   return (
     <React.Fragment>
       <Head>
         <title>All You Can Board</title>
-        <meta name="description" content="All You Can Board!" />
+        <meta name="description" content="All You Can Board's 24 hour Charity event for mental health! Come join us on Sat. May 28th!" />
+        <meta name="keywords" content="All You Can Board, aycb, sara riel, mental health" />
         <link rel="icon" href={`${process.env.BASE_PATH}/logo.png`} />
       </Head>
       <Nav />
