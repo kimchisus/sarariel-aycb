@@ -34,6 +34,7 @@ export const PrizesContainer = styled.div`
 `;
 
 export const PrizeContainer = styled.div`
+    margin-top: 20px;
     border: 1px rgba(0,0,0,.2) solid;
     border-radius: 5px;
     margin-right: 20px;
