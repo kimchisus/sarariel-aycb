@@ -29,9 +29,15 @@ export const TimelineContainer = styled.div`
     overflow-y: scroll;
     border: 5px orange solid;
     border-radius: 5px;
-    margin-top: 50px;
     padding: 30px;
     text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+    @media only screen and (max-width: 800px)  {
+        width: 100%;
+    }
 `;
 
 export const Card = styled.div`

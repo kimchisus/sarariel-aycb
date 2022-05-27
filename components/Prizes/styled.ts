@@ -14,7 +14,7 @@ export const Header = styled.h2`
 export const MaxWidth = styled.div`
     max-width: 1200px;
     margin: auto;
-        padding: 30px;
+    padding: 30px;
 
 `;
 
@@ -33,7 +33,6 @@ export const PrizesContainer = styled.div`
 `;
 
 export const PrizeContainer = styled.div`
-    margin-top: 20px;
     border: 1px rgba(0,0,0,.2) solid;
     border-radius: 5px;
     margin-right: 20px;
