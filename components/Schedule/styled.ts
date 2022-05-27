@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
     background: ${({theme}) => theme.primary};
     padding: 30px;
+
+    @media only screen and (max-width: 800px)  {
+        overflow-x: scroll;
+        min-width: 500px;
+    }
 `;
 
 
@@ -34,6 +39,8 @@ export const TimelineContainer = styled.div`
     width: 80%;
     margin: auto;
     margin-top: 50px;
+
+    min-width: 300px;
 
     @media only screen and (max-width: 800px)  {
         width: 100%;

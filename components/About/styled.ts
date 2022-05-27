@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     margin-bottom: 100px;
+    min-width: 500px;
 
     @media only screen and (max-width: 800px)  {
         margin-bottom: 50px;
@@ -12,6 +13,7 @@ export const Container2 = styled.div`
     padding: 50px 0;
     background: ${({theme}) => theme.primary};
     color: white;
+    min-width: 500px;
 
     @media only screen and (max-width: 800px)  {
         margin-bottom: 50px;

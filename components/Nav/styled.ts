@@ -8,6 +8,7 @@ interface WithIsTop {
 export const Container = styled.div<WithIsTop>`
     height: 70px;
     width: 100%;
+    min-width: 500px;
     display: flex;
     justify-content: center;
     background: ${({ isTop, theme }) => isTop ? 'rgba(1,1,1,0)' : theme.primary };

@@ -4,6 +4,7 @@ export const Container = styled.div`
     padding: 50px 0;
     background: ${({ theme }) => theme.primary};
     border-bottom: 10px orange solid;
+    min-width: 500px;
 `;
 
 export const Header = styled.h2`
