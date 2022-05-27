@@ -46,7 +46,7 @@ export const NavItemContainer = styled.a`
         font-weight: 100;
     }
 
-    @media only screen and (max-width: 800px)  {
+    @media only screen and (max-width: 900px)  {
         display: none;
     }
 `;
