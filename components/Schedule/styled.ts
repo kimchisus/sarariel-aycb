@@ -27,7 +27,7 @@ export const TimelineContainer = styled.div`
     color: white;
     max-height: 500px;
     overflow-y: scroll;
-    border: 3px orange solid;
+    border: 5px orange solid;
     border-radius: 5px;
     margin-top: 50px;
     padding: 30px;
