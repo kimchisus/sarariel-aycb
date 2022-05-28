@@ -52,10 +52,6 @@ export const ImageContainer = styled.div`
     height: 600px;
     display: flex;
     justify-content: center;
-
-    @media only screen and (max-width: 800px)  {
-        display: none;
-    }
 `;
 
 export const HeroImage = styled.img`
