@@ -22,6 +22,10 @@ export const Header = styled.h2`
     font-size: 80px;
 `;
 
+export const Timeline = styled.div`
+    padding: 50px;
+`;
+
 export const SubHeader = styled.h3`
     font-weight: 200;
     color: white;
@@ -50,6 +54,10 @@ export const TimelineContainer = styled.div`
 
 export const TimelineSection = styled.div`
     position: relative;
+    color: white;
+    border: 5px orange solid;
+    border-radius: 5px;
+    height: 500px;
 `;
 
 export const Card = styled.div`

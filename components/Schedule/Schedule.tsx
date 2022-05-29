@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, MaxWidth, TimelineContainer, TimelineSection, SubHeader } from './styled';
+import { Container, Header, MaxWidth, Timeline, TimelineSection, SubHeader } from './styled';
 import { Chrono, TimelineItem } from "react-chrono";
 import { theme as aycbTheme } from 'components/theme/theme';
 
@@ -117,6 +117,7 @@ const defaultChronoProps = {
     disableAutoScrollOnClick: true,
     disableClickOnCircle: true,
     useReadMore: false,
+    scrollable: false,
 };
 
 export const Schedule = () => {
@@ -125,9 +126,11 @@ export const Schedule = () => {
             <MaxWidth>
                 <Header id="schedule">Schedule</Header>
                 <SubHeader>The event will start on Saturday, May 28th at 12pm/noon CST and end on Sunday, May 29th at 12pm/noon CST.</SubHeader>
-                <TimelineContainer>
+                
+                
+                <Timeline>
+                    <SubHeader>Saturday</SubHeader>
                     <TimelineSection>
-                        <SubHeader>Saturday</SubHeader>
                         <Chrono 
                             {...defaultChronoProps}
                             mode={"VERTICAL"}
@@ -135,8 +138,10 @@ export const Schedule = () => {
                         >
                         </Chrono>
                     </TimelineSection>
+                </Timeline>
+                <Timeline>
+                    <SubHeader>Sunday</SubHeader>
                     <TimelineSection>
-                        <SubHeader>Sunday</SubHeader>
                         <Chrono 
                             {...defaultChronoProps}
                             mode={"VERTICAL"}
@@ -144,7 +149,7 @@ export const Schedule = () => {
                         >
                         </Chrono>
                     </TimelineSection>
-                </TimelineContainer>
+                </Timeline>
             </MaxWidth>
         </Container>
     );
