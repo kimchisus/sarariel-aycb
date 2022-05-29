@@ -47,6 +47,10 @@ export const TimelineContainer = styled.div`
     }
 `;
 
+export const TimelineSection = styled.div`
+    position: relative;
+`;
+
 export const Card = styled.div`
     height: 100%;
     width: 100%;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, MaxWidth, TimelineContainer, Card, SubHeader } from './styled';
+import { Container, Header, MaxWidth, TimelineContainer, TimelineSection, SubHeader } from './styled';
 import { Chrono, TimelineItem } from "react-chrono";
 import { theme as aycbTheme } from 'components/theme/theme';
 
@@ -126,20 +126,24 @@ export const Schedule = () => {
                 <Header id="schedule">Schedule</Header>
                 <SubHeader>The event will start on Saturday, May 28th at 12pm/noon CST and end on Sunday, May 29th at 12pm/noon CST.</SubHeader>
                 <TimelineContainer>
-                    <SubHeader>Saturday</SubHeader>
-                    <Chrono 
-                        {...defaultChronoProps}
-                        mode={"VERTICAL"}
-                        items={convertedSatItems} 
-                    >
-                    </Chrono>
-                    <SubHeader>Sunday</SubHeader>
-                    <Chrono 
-                        {...defaultChronoProps}
-                        mode={"VERTICAL"}
-                        items={convertedSunItems} 
-                    >
-                    </Chrono>
+                    <TimelineSection>
+                        <SubHeader>Saturday</SubHeader>
+                        <Chrono 
+                            {...defaultChronoProps}
+                            mode={"VERTICAL"}
+                            items={convertedSatItems} 
+                        >
+                        </Chrono>
+                    </TimelineSection>
+                    <TimelineSection>
+                        <SubHeader>Sunday</SubHeader>
+                        <Chrono 
+                            {...defaultChronoProps}
+                            mode={"VERTICAL"}
+                            items={convertedSunItems} 
+                        >
+                        </Chrono>
+                    </TimelineSection>
                 </TimelineContainer>
             </MaxWidth>
         </Container>
