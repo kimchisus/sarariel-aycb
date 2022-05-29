@@ -109,7 +109,6 @@ const fontSizes = {
 
 const defaultChronoProps = {
     activeItemIndex: -1,
-    scrollable: false,
     fontSizes: fontSizes,
     cardHeight: 100,
     cardWidth: 500,
