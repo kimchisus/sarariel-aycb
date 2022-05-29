@@ -31,6 +31,7 @@ export const SubHeader = styled.h3`
 export const TimelineContainer = styled.div`
     color: white;
     max-height: 500px;
+    height: 500px;
     overflow-y: scroll;
     border: 5px orange solid;
     border-radius: 5px;
