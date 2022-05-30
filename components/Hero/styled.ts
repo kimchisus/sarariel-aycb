@@ -60,3 +60,22 @@ export const HeroImage = styled.img`
     height: 100%;
     margin: auto;
 `;
+
+export const Info = styled.div`
+    text-align: center;
+`;
+
+export const TotalInfo = styled.h3`
+    color: white;
+    font-size: 50px;
+    margin: 0;
+`;
+
+export const TotalRaised = styled.h3`
+    color: orange;
+    font-size: 150px;
+
+    @media only screen and (max-width: 800px)  {
+        font-size: 80px;
+    }
+`;
