@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
                             Final Total
                         </TotalInfo>
                         <TotalRaised>
-                            $16,242.20
+                            $16,891.25
                         </TotalRaised>
                     </Info>
                     {/* <HeroImage src={`${process.env.BASE_PATH}/livestream_logo.png`} /> */}

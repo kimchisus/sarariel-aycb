@@ -35,6 +35,8 @@ export const PrizesContainer = styled.div`
 
 export const PrizeContainer = styled.div`
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     border: 1px rgba(0,0,0,.2) solid;
     border-radius: 5px;
     margin-right: 20px;
@@ -50,7 +52,6 @@ export const PrizeContainer = styled.div`
 export const PrizeInfoContainer = styled.div`
     position: relative;
     height: 60px;
-    margin-bottom: 35px;
     border-bottom: 1px rgba(0,0,0,.3) solid;
 `;
 
@@ -83,7 +84,17 @@ export const PrizeImage = styled.img`
 export const PrizeInfo = styled.div`
     margin-top: 40px;
     padding: 20px;
+    flex: 1;
 `;
+
+export const WinnerContainer = styled.div`
+    border-top: 1px rgba(0,0,0,.3) solid;
+    padding: 15px;
+`;
+
+export const WinnerTitle = styled.h4``;
+
+export const Winner = styled.span``;
 
 export const Name = styled.h4`
     font-size: 20px;
